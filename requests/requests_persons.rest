@@ -1,0 +1,55 @@
+GET https://backend-phonebook-wjbv.onrender.com/api/persons
+
+###
+
+GET https://backend-phonebook-wjbv.onrender.com/info
+
+###
+
+POST https://backend-phonebook-wjbv.onrender.com/api/persons
+Content-Type: application/json
+
+{
+    "name": "Test Person",
+    "number": "040-1234567"
+}
+
+###
+
+DELETE https://backend-phonebook-wjbv.onrender.com/api/persons/1
+
+###
+
+GET http://localhost:3001/api/persons
+
+###
+
+GET http://localhost:3001/info
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Test Person",
+    "number": "040-1234567"
+}
+
+###
+
+GET http://localhost:3001/api/persons/6a501f1b1740768f2b5e8c8c
+
+###
+
+DELETE http://localhost:3001/api/persons/6a502096af9e02047daccf52
+
+###
+
+PUT http://localhost:3001/api/persons/6a5020ad804fc1d6b954c1bf
+Content-Type: application/json
+
+{
+    "name": "Lolelius Memelius",
+    "number": "050-9999999"
+}
